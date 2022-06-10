@@ -88,7 +88,7 @@ class _Subjects extends State<Subjects> {
                                                     imageUrl: Config.server +
                                                         "/midterm_277585/assets/courses/" +
                                                         coursesList[index].subjectId.toString() +
-                                                        '.png',
+                                                        '.jpg',
                                                     fit: BoxFit.cover,
                                                     width: resWidth,
                                                     placeholder: (context,
@@ -263,7 +263,7 @@ class _Subjects extends State<Subjects> {
                   imageUrl: Config.server +
                       "/midterm_277585/assets/courses/" +
                       coursesList[index].subjectId.toString() +
-                      '.png',
+                      '.jpg',
                   fit: BoxFit.cover,
                   width: resWidth / 1.8,
                   placeholder: (context, url) =>

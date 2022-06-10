@@ -16,7 +16,7 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
   late List<Widget> tabchildren;
-  int _currentIndex = 0;
+  int _currentIndex = 4;
   String maintitle = "Profile";
 
   @override
