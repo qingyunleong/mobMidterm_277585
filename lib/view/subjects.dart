@@ -86,7 +86,7 @@ class _Subjects extends State<Subjects> {
                                                           10, 5, 10, 5),
                                                   child: CachedNetworkImage(
                                                     imageUrl: Config.server +
-                                                        "/mobileMidterm_277585/images/courses/" +
+                                                        "/mobileMidterm_277585/assets/courses/" +
                                                         coursesList[index].subjectId.toString() +
                                                         '.jpg',
                                                     fit: BoxFit.cover,
@@ -261,7 +261,7 @@ class _Subjects extends State<Subjects> {
                 const SizedBox(height: 20),
                 CachedNetworkImage(
                   imageUrl: Config.server +
-                      "/mobileMidterm_277585/images/courses/" +
+                      "/mobileMidterm_277585/assets/courses/" +
                       coursesList[index].subjectId.toString() +
                       '.jpg',
                   fit: BoxFit.cover,

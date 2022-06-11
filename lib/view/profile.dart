@@ -55,7 +55,7 @@ class _Profile extends State<Profile> {
                           padding: const EdgeInsets.fromLTRB(10, 5, 10, 5),
                           child: CachedNetworkImage(
                               imageUrl: Config.server +
-                                  "/mobileMidterm_277585/images/profile/" +
+                                  "/mobileMidterm_277585/assets/profile/" +
                                   widget.user.id.toString() +
                                   ".jpg",
                               fit: BoxFit.cover,

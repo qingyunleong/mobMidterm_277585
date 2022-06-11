@@ -85,7 +85,7 @@ class _Tutor extends State<Tutor> {
                                                           10, 5, 10, 5),
                                                   child: CachedNetworkImage(
                                                     imageUrl: Config.server +
-                                                        "/midterm_277585/assets/tutors/" +
+                                                        "/mobileMidterm_277585/assets/tutors/" +
                                                         tutorsList[index]
                                                             .tutorId
                                                             .toString() +
@@ -270,7 +270,7 @@ class _Tutor extends State<Tutor> {
                 const SizedBox(height: 20),
                 CachedNetworkImage(
                   imageUrl: Config.server +
-                      "/midterm_277585/assets/tutors/" +
+                      "/mobileMidterm_277585/assets/tutors/" +
                       tutorsList[index].tutorId.toString() +
                       '.jpg',
                   fit: BoxFit.cover,
